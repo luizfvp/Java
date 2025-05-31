@@ -10,15 +10,15 @@ public class Questao10 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
 
-        String[] nomes = new String[]{"Azul", "Amarelo", "Verde", "Vermelho", "Azul", "Amarelo", "Vermelho", "Amarelo"};
+        String[] cores = new String[]{"Azul", "Amarelo", "Verde", "Vermelho", "Azul", "Amarelo", "Vermelho", "Amarelo"};
         boolean verificacao = false;
 
         System.out.println("Digite uma cor: ");
         String cor = leia.nextLine();
         int vezes = 0;
 
-        for (int i = 0; i < nomes.length; i++) {
-            if (cor.equalsIgnoreCase(nomes[i])) {
+        for (int i = 0; i < cores.length; i++) {
+            if (cor.equalsIgnoreCase(cores[i])) {
                 verificacao = true;
                 vezes++;
             }
