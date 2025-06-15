@@ -32,3 +32,9 @@ Encontre e exiba o dia e o bairro com a temperatura mais alta registrada na sema
 
 5) Crie um jogo da velha 3x3 onde dois jogadores alternam entre "X" e "O". Verifique o vencedor ou 
 empate. 
+
+
+6) Crie um jogo de campo minado, utilizando uma matriz de 5x5 onde:  
+0 = espaço vazio -1 = bomba 
+O usuário digita coordenadas (linha, coluna) para revelar posições.  
+Se encontrar uma bomba, perde!
